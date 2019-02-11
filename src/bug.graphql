@@ -1,0 +1,15 @@
+type Query {
+  q: F1!
+}
+
+interface F1 {
+  foo: String!
+}
+
+type F2 implements F1 {
+  foo: String!
+}
+
+interface Node {
+  id: ID!
+}
