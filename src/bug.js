@@ -1,4 +1,3 @@
-// bug.ts
 import {graphql} from 'react-relay';
 
 graphql`
